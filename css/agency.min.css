@@ -750,8 +750,8 @@ section#volunteer .section-text {
     z-index:9999;
     width: 120px;
     height: 120px;
-    background: 0;
-    margin: 25% 25% 25% 25%;
+    background: #2A2A2C;
+    margin: 25% 50% 25% 35%;
 }
 @keyframes spin {
     0% { transform: rotate(0deg); }
