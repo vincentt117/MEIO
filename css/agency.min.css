@@ -181,6 +181,18 @@ body {
     }
 }
 
+header.masthead.team{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/team/team-dab.jpg");
+}
+
+header.masthead.news{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/news.jpg");
+}
+
+header.masthead.research{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/research.jpg");
+}
+
 header.masthead {
     text-align: center;
     color: #fff;
@@ -197,7 +209,7 @@ header.masthead {
 
 header.masthead .intro-text {
     padding-top: 50%;
-    padding-bottom: 50%;
+    padding-bottom: 30%;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -219,7 +231,7 @@ header.masthead .intro-text .intro-heading {
 @media (min-width:768px) {
     header.masthead .intro-text {
         padding-top: 30%;
-        padding-bottom: 30%;
+        padding-bottom: 10%;
     }
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
@@ -263,7 +275,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background: rgba(254, 209, 54, .9)
+    background: #F28E93;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -276,7 +288,7 @@ header.masthead .intro-text .intro-heading {
     top: 50%;
     width: 100%;
     height: 20px;
-    margin-top: -12px;
+    margin-top: -50px;
     text-align: center;
     color: #fff
 }
@@ -606,58 +618,58 @@ header.masthead .intro-text .intro-heading {
     margin-top: 0
 }
 
-section#contact {
+section#subscribe {
     background-color: #212529;
     background-image: url(../img/map-image.png);
     background-repeat: no-repeat;
     background-position: center
 }
 
-section#contact .section-heading {
+section#subscribe .section-heading {
     color: #fff
 }
 
-section#contact .form-group {
+section#subscribe .form-group {
     margin-bottom: 25px
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#subscribe .form-group input,
+section#subscribe .form-group textarea {
     padding: 20px
 }
 
-section#contact .form-group input.form-control {
+section#subscribe .form-group input.form-control {
     height: auto
 }
 
-section#contact .form-group textarea.form-control {
+section#subscribe .form-group textarea.form-control {
     height: 248px
 }
 
-section#contact .form-control:focus {
+section#subscribe .form-control:focus {
     border-color: #F48D92;
     box-shadow: none
 }
 
-section#contact::-webkit-input-placeholder {
+section#subscribe::-webkit-input-placeholder {
     font-weight: 700;
     color: #ced4da;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-section#contact:-moz-placeholder {
+section#subscribe:-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-section#contact::-moz-placeholder {
+section#subscribe::-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-section#contact:-ms-input-placeholder {
+section#subscribe:-ms-input-placeholder {
     font-weight: 700;
     color: #ced4da;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
@@ -723,7 +735,6 @@ ul.social-buttons li a:hover {
 
 
 section#volunteer {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url("../img/team/team-dab.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -733,13 +744,12 @@ section#volunteer {
     background-size: cover;
 }
 
-section#volunteer .section-heading {
-    color: #fff
+.img-sm{
+    margin-top: 100px;
+    height: 150px;
+    width: 150px;
 }
 
-section#volunteer .section-text {
-    color: #fff
-}
 
 #load{
     width:100%;
