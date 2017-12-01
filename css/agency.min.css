@@ -710,7 +710,7 @@ ul.social-buttons li a:hover {
 .logo {
     border-radius: 50%;
     width: 50px;
-    height: 50px;  
+    height: 50px;
 }
 
 .quote {
@@ -742,17 +742,13 @@ section#volunteer .section-text {
 }
 
 #load{
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #F48D92;
-    border-radius: 50%;
-    animation: spin 0.5s linear infinite;
+    width:100%;
+    height:100%;
     position:fixed;
     z-index:9999;
-    width: 120px;
-    height: 120px;
-    background: #2A2A2C;
-    margin: 25% 50% 25% 35%;
+    background:url("../img/blocks.gif") no-repeat center center #F28E93;
 }
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
