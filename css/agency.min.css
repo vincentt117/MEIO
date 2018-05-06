@@ -151,6 +151,47 @@ body {
     color: #F48D92
 }
 
+#nonTransparentNav {
+    background-color: #212529
+}
+
+#nonTransparentNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background-color: #F48D92;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+#nonTransparentNav .navbar-brand {
+    color: #F48D92;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive
+}
+
+#nonTransparentNav .navbar-brand.active,
+#nonTransparentNav .navbar-brand:active,
+#nonTransparentNav .navbar-brand:focus,
+#nonTransparentNav .navbar-brand:hover {
+    color: #F48D92
+}
+
+#nonTransparentNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+#nonTransparentNav .navbar-nav .nav-item .nav-link.active,
+#nonTransparentNav .navbar-nav .nav-item .nav-link:hover {
+    color: #F48D92
+}
+
 @media (min-width:992px) {
     #mainNav {
         padding-top: 25px;
@@ -179,24 +220,49 @@ body {
         font-size: 1.25em;
         padding: 12px 0
     }
+    #nonTransparentNav .non-transparent {
+        padding-top: 25px;
+        -webkit-transition: padding-top .3s, padding-bottom .3s;
+        -moz-transition: padding-top .3s, padding-bottom .3s;
+        transition: padding-top .3s, padding-bottom .3s;
+        border: none;
+    }
+    #nonTransparentNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    #nonTransparentNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em!important
+    }
+    #nonTransparentNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #212529
+    }
+    #nonTransparentNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0
+    }
 }
 
-header.masthead.team{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/team/team-dab.jpg");
+header.masthead.team {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/team/team-dab.jpg");
 }
 
-header.masthead.news{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/news.jpg");
+header.masthead.news {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/news.jpg");
 }
 
-header.masthead.research{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/research.jpg");
+header.masthead.research {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/research.jpg");
 }
 
 header.masthead {
     text-align: center;
     color: #fff;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/group_nypd.png");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/group_nypd.png");
     min-height: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -719,6 +785,7 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #F48D92
 }
+
 .logo {
     border-radius: 50%;
     width: 50px;
@@ -729,10 +796,9 @@ ul.social-buttons li a:hover {
     font-style: italic;
 }
 
-.about_text{
+.about_text {
     padding-bottom: 50px;
 }
-
 
 section#volunteer {
     background-repeat: no-repeat;
@@ -744,22 +810,25 @@ section#volunteer {
     background-size: cover;
 }
 
-.img-sm{
+.img-sm {
     margin-top: 100px;
     height: 150px;
     width: 150px;
 }
 
-
-#load{
-    width:100%;
-    height:100%;
-    position:fixed;
-    z-index:9999;
-    background:url("../img/blocks.gif") no-repeat center center #F28E93;
+#load {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: url("../img/blocks.gif") no-repeat center center #F28E93;
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

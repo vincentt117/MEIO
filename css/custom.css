@@ -1,0 +1,12 @@
+div.tallspace {
+    padding-bottom: 150px;
+}
+
+p.longpara {
+    text-indent: 50px;
+}
+
+p.tabbed_from_second_line {
+    padding-left: 1.5em;
+    text-indent:-1.5em;
+}
