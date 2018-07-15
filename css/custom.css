@@ -4,20 +4,19 @@ div.tallspace {
 
 p.longpara {
     text-indent: 50px;
-    font-size: 23px;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
 p.tabbed_from_second_line {
     padding-left: 1.5em;
     text-indent:-1.5em;
-    font-family: "Times New Roman", Times, serif;
 }
 
 .share_button {
     padding-bottom: 20px;
 }
+
 
 .share_button_image {
     height: 28px;    
@@ -27,3 +26,4 @@ p.tabbed_from_second_line {
 .share_button_image:hover{
     opacity:0.8;
 }
+
